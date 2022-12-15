@@ -12,7 +12,7 @@ yargs.command({
   builder: {
     title: {
       describe: "Note title",
-      demandOption: false,
+      demandOption: true,
       type: "string",
     },
     description: {
